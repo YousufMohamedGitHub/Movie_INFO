@@ -1,0 +1,25 @@
+
+#movies img, #movie img{
+
+width: 100%;
+
+}
+@media(min-width:960px) {
+#movies .col-4 .well {
+
+    height: 650px;
+}
+
+#movies .col-4 img{
+height: 500px;
+}
+}
+
+@media(max-width:959px) {
+    #movies .col-4 .well {
+    
+        height: 400px;
+    }
+    
+    
+    }
